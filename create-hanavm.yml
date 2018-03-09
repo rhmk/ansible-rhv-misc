@@ -3,4 +3,5 @@
   gather_facts: false
 
   roles:
-          - {{ role: oVirt.vm-infra }}
+          - { role: oVirt.vm-infra }
+

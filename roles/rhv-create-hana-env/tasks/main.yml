@@ -1,0 +1,13 @@
+---
+# tasks file for rhv-create-hana-env (see: http://docs.ansible.com/ansible/latest/ovirt_module.html )
+
+#
+- name: my setup
+  ovirt:
+    user: admin@internal
+    url: https://ovirt.example.com
+    instance_name: ansiblevm04
+    password: secret
+    image: centos_64
+    zone: cluster01
+    resource_type: template"
